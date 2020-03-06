@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Android AR Launcher</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>  
+  <body>
+    <h1>
+      Welcome to the AR Launcher!
+    </h1>
+    <h2>
+      Click a preview to view in AR...     
+    </h2>
+    <!-- Load Google scripts for Model Viewer from CDN-->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <hr>
+<div>
+
+    <h3>
+      Tiger
+    </h3>   
+    <p>
+      <model-viewer ar src="https://ar-bin.github.io/data/tiger-model.glb" auto-rotate camera-controls alt="Tiger" background-color="#828282"></model-viewer>
+    </p>
+    
+    <h3>
+      Bus
+    </h3>
+    <p>
+      <model-viewer ar src="https://ar-bin.github.io/data/PublicBus.glb" auto-rotate camera-controls alt="Bus" background-color="#828282"></model-viewer>
+    </p>
+    
+    <h3>
+      Milk Truck
+    </h3>    
+    <p>
+      <model-viewer ar src="https://ar-bin.github.io/data/CesiumMilkTruck.glb" auto-rotate camera-controls alt="Milk Truck" background-color="#828282"></model-viewer>
+    </p>
+    
+    <h3>
+      Office Building
+    </h3>
+    <p>
+      <model-viewer ar src="https://ar-bin.github.io/data/OfficeBuilding.glb" auto-rotate camera-controls alt="Office Building" background-color="#828282"></model-viewer>
+    </p>
+    
+    <h3>
+      Duck
+    </h3>
+    <p>
+      <model-viewer ar src="https://ar-bin.github.io/data/duck.glb" auto-rotate camera-controls alt="Duck" background-color="#828282"></model-viewer>    
+    </p>  
+    </div>  
+  </body>
+</html>
