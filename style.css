@@ -1,0 +1,18 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #828282;
+  color: white;
+}
+
+h1 {
+}
+
+H2 { 
+}
+
+DIV{
+  padding: 10px;
+}
